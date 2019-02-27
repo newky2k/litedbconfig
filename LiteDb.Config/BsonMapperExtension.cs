@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using LiteDb.Config;
-using LiteDB;
 
-namespace LiteDb
+namespace LiteDB
 {
     public static class BsonMapperExtension
     {
