@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>newky2k</Authors>
+    <Company>newky2k</Company>
+    <Description>Extension for LiteDb that adds EntityFramework style configuration for  BSONMapper using assemblies</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/newky2k/litedbconfig</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/newky2k/litedbconfig/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>

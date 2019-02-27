@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LiteDb.Config\LiteDb.Config.csproj" />
+    <ProjectReference Include="..\LiteDb.Config\LiteDB.Config.csproj" />
   </ItemGroup>
 
 </Project>
