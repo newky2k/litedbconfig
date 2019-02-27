@@ -1,5 +1,5 @@
-﻿using LiteDb.Config;
-using LiteDB;
+﻿using LiteDB;
+using LiteDB.Config;
 using System;
 using System.Collections.Generic;
 using System.Text;
