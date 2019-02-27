@@ -1,8 +1,8 @@
-﻿using System;
+﻿using LiteDB.Config;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using LiteDb.Config;
 
 namespace LiteDB
 {

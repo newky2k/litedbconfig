@@ -1,7 +1,7 @@
 using System;
 using LiteDB;
 
-namespace LiteDb.Config
+namespace LiteDB.Config
 {
     /// <summary>
     /// Interface for configuring Entity for the BSONMapper entity builder
