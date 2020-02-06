@@ -10,6 +10,9 @@
     <PackageLicenseUrl>https://github.com/newky2k/litedbconfig/blob/master/LICENSE</PackageLicenseUrl>
     <PackageReleaseNotes>Initial release</PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>DSoft.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
   </PropertyGroup>
 
   <ItemGroup>
