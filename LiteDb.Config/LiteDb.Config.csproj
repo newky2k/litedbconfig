@@ -8,12 +8,14 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageProjectUrl>https://github.com/newky2k/litedbconfig</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
-    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated to 5.0.7 of LiteDb</PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>DSoft.snk</AssemblyOriginatorKeyFile>
     <DelaySign>false</DelaySign>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>5.0.7</Version>
+    <AssemblyVersion>5.0.7.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
