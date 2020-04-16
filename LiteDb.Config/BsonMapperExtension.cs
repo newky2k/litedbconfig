@@ -18,6 +18,11 @@ namespace LiteDB
 
         private static readonly Dictionary<Assembly, IEnumerable<Type>> typesPerAssembly = new Dictionary<Assembly, IEnumerable<Type>>();
 
+        /// <summary>Applies the configuration for the specified type</summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="modelBuilder">The model builder.</param>
+        /// <param name="configuration">The configuration.</param>
+        /// <returns></returns>
         public static BsonMapper ApplyConfiguration<T>(this BsonMapper modelBuilder, IEntityBuilderConfiguration<T> configuration) where T : class
         {
             var entityType = FindEntityType(configuration.GetType());
@@ -31,6 +36,12 @@ namespace LiteDB
             return modelBuilder;
         }
 
+        /// <summary>
+        /// Applies the configurations from specified assembly.
+        /// </summary>
+        /// <param name="mapper">The mapper.</param>
+        /// <param name="asm">The assembly</param>
+        /// <returns></returns>
         public static BsonMapper ApplyConfigurationsFromAssembly(this BsonMapper mapper, Assembly asm)
         {
             IEnumerable<Type> configurationTypes;
