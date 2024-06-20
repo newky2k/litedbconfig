@@ -1,28 +1,35 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <Authors>newky2k</Authors>
-    <Company>newky2k</Company>
-    <Description>Extension for LiteDb that adds EntityFramework style configuration for  BSONMapper using assemblies</Description>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageProjectUrl>https://github.com/newky2k/litedbconfig</PackageProjectUrl>
-    <PackageLicenseUrl></PackageLicenseUrl>
-    <PackageReleaseNotes>Updated to 5.0.7 of LiteDb</PackageReleaseNotes>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>DSoft.snk</AssemblyOriginatorKeyFile>
-    <DelaySign>false</DelaySign>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>5.0.7</Version>
-    <AssemblyVersion>5.0.7.0</AssemblyVersion>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<Authors>newky2k</Authors>
+		<Company>newky2k</Company>
+		<Description>Extension for LiteDb that adds EntityFramework style configuration for  BSONMapper using assemblies</Description>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageProjectUrl>https://github.com/newky2k/litedbconfig</PackageProjectUrl>
+		<PackageLicenseUrl></PackageLicenseUrl>
+		<PackageReleaseNotes>Updated to 5.0.20 of LiteDb</PackageReleaseNotes>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>DSoft.snk</AssemblyOriginatorKeyFile>
+		<DelaySign>false</DelaySign>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Version>5.0.20</Version>
+		<AssemblyVersion>5.0.20.0</AssemblyVersion>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="LiteDB" Version="5.0.7" />
-    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Remove="Class1.cs" />
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="../README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="LiteDB" Version="5.0.20" />
+		<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<Compile Remove="Class1.cs" />
+	</ItemGroup>
+	
 </Project>
