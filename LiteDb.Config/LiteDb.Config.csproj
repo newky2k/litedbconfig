@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>netstandard2.0</TargetFramework>
+		<TargetFrameworks>netstandard2.0;net8.0;net9.0;</TargetFrameworks>
 		<Authors>newky2k</Authors>
 		<Company>newky2k</Company>
 		<Description>Extension for LiteDb that adds EntityFramework style configuration for  BSONMapper using assemblies</Description>
@@ -14,8 +14,8 @@
 		<AssemblyOriginatorKeyFile>DSoft.snk</AssemblyOriginatorKeyFile>
 		<DelaySign>false</DelaySign>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<Version>5.0.20</Version>
-		<AssemblyVersion>5.0.20.0</AssemblyVersion>
+		<Version>5.0.21</Version>
+		<AssemblyVersion>5.0.21.0</AssemblyVersion>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
@@ -24,7 +24,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="LiteDB" Version="5.0.20" />
+		<PackageReference Include="LiteDB" Version="5.0.21" />
 		<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
 	</ItemGroup>
 	
